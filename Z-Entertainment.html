@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Z-Entertainment</title>
+        <style>
+            .text {
+                margin-left: 20px;
+            }
+            body {
+                background-color: #0e4c63; /* Darker red */
+            }
+            .logo-container {
+                display: flex;
+                align-items: center;
+            }
+            .logo-container img {
+                margin-right: 10px;
+            }
+            button {
+                background-color: #5a0303; /* Red */
+                color: #101010; /* White */
+                border: none;
+                padding: 10px 20px;
+                font-size: 16px;
+                cursor: pointer;
+                border-radius: 10px; /* Rounded corners */
+            }
+        </style>
+        <script>
+            function goToScreen() {
+                window.location.href = "Games.html"; // Replace "screen.html" with the URL of the screen you want to navigate to
+            }
+        </script>
+    </head>
+    <body>
+        <div class="logo-container">
+            <img src="images/logo.jpg" alt="Z-Entertainment Logo">
+            <h1>Z-Entertainment</h1>
+        </div>
+        <hr>
+        <p><h4>Welcome to the official Z-Entertainment website!</h4></p>
+        <button onclick="goToScreen()">Games</button>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Z-Games</title>
+        <style>
+            body {
+                background-color: #600423e2; /* Bright red */
+                position: relative; /* Set the body as the positioned ancestor */
+            }
+            .logo-container {
+                display: flex;
+                align-items: center;
+            }
+            .logo-container img {
+                margin-right: 10px;
+            }
+            button {
+                background-color: #5a0303; /* Red */
+                color: #585858; /* White */
+                border: none;
+                padding: 10px 20px;
+                font-size: 16px;
+                cursor: pointer;
+                border-radius: 10px; /* Rounded corners */
+                position: absolute;
+                top: 10px;
+                right: 10px;
+            }
+            hr {
+                border: none;
+                border-top: 3px solid #000000; /* Black */
+                margin: 20px 0;
+            }
+        </style>
+        <script>
+            function goToZEntertainment() {
+                window.location.href = "Z-Entertainment.html";
+            }
+        </script>
+    </head>
+    <body>
+        <div class="logo-container">
+            <img src="images/ZGameslogo.jpg" alt="Z - Games Logo" height="70">
+            <h1>Z - Games</h1>
+        </div>
+        <hr>
+        <button onclick="goToZEntertainment()">Home</button>
+    </body>
+</style>
+</html>
